@@ -2,7 +2,7 @@ from functools import wraps
 
 from telegram import Bot, Chat, ChatMember, Update, ParseMode
 
-from Manager import dispatcher, DEL_CMDS, WHITELIST_USERS, TIGER_USERS, SUPPORT_USERS, SUDO_USERS, DEV_USERS, SUPPORT_CHAT
+from Wbb import dispatcher, SUPPORT_USERS, SUDO_USERS, SUPPORT_CHAT
 
 
 def is_whitelist_plus(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
