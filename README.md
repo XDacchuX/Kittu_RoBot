@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    ✨ WilliamButcherBot ✨ 
+    ✨ Private Bot ✨ 
 </h1>
 
 <h3 align="center"> 
@@ -28,8 +28,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/WilliamButcherBot"> WilliamButcherBot </a> | 
-    <a href="https://t.me/wbbsupport"> WbbSupport </a>
+    <a href="https://t.me/Raze_Network"> Raze Network </a> | 
+    <a href="https://t.me/RazeFriendsZone"> Support </a>
 </p>
 
 <h2 align="center"> 
@@ -75,7 +75,7 @@ thehamkercat@arch:~$ python3 -m wbb
 
 <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot">
+        <a href="https://heroku.com/deploy?template=https://github.com/XDacchuX/Private">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
