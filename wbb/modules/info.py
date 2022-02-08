@@ -52,14 +52,16 @@ async def get_user_info(user, already=False):
     is_sudo = user_id in SUDOERS
     karma = await user_global_karma(user_id)
     body = {
+         ╒═══「 Appraisal results: 」
         "ID": user_id,
         "DC": dc_id,
         "Name": [first_name],
         "Username": [("@" + username) if username else "Null"],
         "Mention": [mention],
-        "Sudo": is_sudo,
+        "Sudo":  is_sudo,
         "Karma": karma,
         "Gbanned": is_gbanned,
+         ╘══「 Groups count: [count] 」
     }
     caption = section("User info", body)
     return [caption, photo_id]
