@@ -9,8 +9,8 @@ from telegram.ext import run_async
 import Manager.modules.fun_strings as fun_strings
 from Wbb import dispatcher
 from Wbb.modules.disable import DisableAbleCommandHandler
-from Wbb.modules.utils.chat_status import is_user_admin, user_admin
-from Wbb.modules.utils.extraction import extract_user
+from Wbb.utils.chat_status import is_user_admin, user_admin
+from Wbb.utils.extraction import extract_user
 
 @run_async
 def runs(bot: Bot, update: Update):
