@@ -133,9 +133,14 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    *Hello {} !*
+✪ I'm Raze anime-theme management bot [✨](https://te.legra)
+────────────────────────
+× *Bot Uptime:* `{}`
+× `{}` *users, across* `{}` *chats*
+────────────────────────
+✪ Hit the /help to see available commands.
+"""
 )
 
 
@@ -147,8 +152,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="About",
+                url="https://",
             ),
         ],
         [
@@ -156,7 +161,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/RazeFriendsZone"),
         ],
     ]
 )
