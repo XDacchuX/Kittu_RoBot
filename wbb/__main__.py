@@ -133,7 +133,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-*Hello {} !*
+    f"Hey there!{first_name}
 ✪ I'm Raze anime-theme management bot [✨](https://te.legra)
 ────────────────────────
 × *Bot Uptime:* `{}`
