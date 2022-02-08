@@ -142,13 +142,11 @@ async def global_stats(_, message):
     **{warns_count}** Warns, Across **{warns_chats_count}** chats.
     **{karmas_count}** Karma, Across **{karmas_chats_count}** chats.
     **{served_users}** Users, Across **{served_chats}** chats.
-    **{developers}** Developers And **{commits}** Commits On **[Github]({rurl})**.
 
-**Global Stats of {USERBOT_NAME}**:
+**Global Stats of Raze User**:
     **{total_ub} Dialogs.**
-    **{groups_ub} Groups Joined.**
-    **{channels_ub} Channels Joined.**
-    **{bots_ub} Bots.**
+    **{groups_ub} Groups .**
+    **{channels_ub} Channels .**
     **{privates_ub} Users.**
 """
     await m.edit(msg, disable_web_page_preview=True)
